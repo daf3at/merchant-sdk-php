@@ -1,0 +1,22 @@
+{
+    "name": "daf3at/merchants",
+    "description": "Daf3at Merchant PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Daf3at\\Merchants\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Ramli",
+            "email": "m.ramli@daf3at.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "mashape/unirest-php": "3.*",
+      "ext-json": "*"
+    }
+}
